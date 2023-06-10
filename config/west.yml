@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/victorlucachi
+    - name: ddpdoj
+      url-base: https://github.com/ddpdoj
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: ddpdoj
       revision: pmw3610-aml
       import: app/west.yml
   self:
