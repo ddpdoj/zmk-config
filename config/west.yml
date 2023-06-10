@@ -1,11 +1,23 @@
+# manifest:
+#   remotes:
+#     - name: ddpdoj
+#       url-base: https://github.com/ddpdoj
+#   projects:
+#     - name: zmk
+#       remote: ddpdoj
+#       revision: workflow/metadata-build
+#       import: app/west.yml
+#   self:
+#     path: config
+
 manifest:
   remotes:
-    - name: ddpdoj
-      url-base: https://github.com/ddpdoj
+    - name: zmkfirmware
+      url-base: https://github.com/victorlucachi
   projects:
     - name: zmk
-      remote: ddpdoj
-      revision: workflow/metadata-build
+      remote: zmkfirmware
+      revision: pmw3610-aml
       import: app/west.yml
   self:
     path: config
