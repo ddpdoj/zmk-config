@@ -41,7 +41,7 @@
 
 &pwm0 {
     status = "okay";
-    ch0-pin = <45>;
+    ch0-pin = <32>;
 };
 
 / {
@@ -49,7 +49,7 @@
         compatible = "pwm-leds";
         label = "Backlight LEDs";
         pwm_led_0 {
-            pwms = <&pwm0 45>;
+            pwms = <&pwm0 32>;
             label = "Backlight LED 0";
         };
     };
