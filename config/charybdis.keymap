@@ -11,6 +11,10 @@
     quick-tap-ms = <150>;
 };
 
+&chosen {
+    zmk,matrix_transform = &five_column_transform;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
